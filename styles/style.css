@@ -61,7 +61,7 @@ body {
     background: url(../disign/basket.svg) no-repeat center;
     background-position: 0 -50%;
     padding: 3px 13px;
-    margin: 30px 37px 0 0;
+    margin: 30px 28px 0 0;
     position: relative;
     height: 15px;
 }
@@ -91,4 +91,22 @@ body {
 .reg__logIn {
     padding: 20px 60px;
     margin-left: 5px;
+}
+
+.title-content {
+    margin: 114px 736px 26px 230px;
+    max-width: 534px;
+    color: #ff8a00;
+}
+
+.title-content__title {
+    font-size: 44px;
+    line-height: 158%;
+    font-weight: bold;
+}
+
+.title-content__text-title__data {
+    font-size: 18px;
+    line-height: 33px;
+    color: #5C5C5C;
 }
