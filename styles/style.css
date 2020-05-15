@@ -143,11 +143,43 @@ body {
 
 .container {
     max-width: 889px;
-    margin: 0 305px 69px;
+    margin: 0 305px 117px;
 }
 
 .content-text {
     font-size: 14px;
     line-height: 28px;
     color: #5C5C5C
+}
+
+.chapter {
+    font-size: 24px;
+    line-height: 158%;
+    color: #FF8A00;
+    max-width: 385px;
+    margin: 68px 0;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+    margin: 59px 0 68px;
+}
+
+.social-networks {
+    padding: 3px 13px;
+    margin-left: 10px;
+    line-height: 175%;
+}
+
+.social-networks__facebook {
+    background: url(../disign/facebook.svg) no-repeat center;
+}
+
+.social-networks__twiter {
+    background: url(../disign/twiter.svg) no-repeat center;
+}
+
+.social-networks__youtube {
+    background: url(../disign/youtube.svg) no-repeat center;
 }
