@@ -148,7 +148,6 @@ body {
     ;
 }
 
-
 .container {
     max-width: 889px;
     margin: 0 10px;
@@ -162,7 +161,8 @@ body {
 
 .content-img {
     max-width: 100%;
-    border-radius: 25px;
+    border-radius: 10px;
+    margin: 59px 0 68px;
 }
 
 .chapter {
@@ -196,6 +196,39 @@ body {
 
 .social-networks__youtube {
     background: url(../disign/youtube.svg) no-repeat center;
+}
+
+.marketing {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #5C5C5C;
+    margin-bottom: 139px;
+}
+
+.marketing-col {
+    width: 250px;
+}
+
+.btn-list {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 17px;
+    color: #989898;
+}
+
+.btn-list:hover {
+    color: #FF8A00;
+}
+
+.marketing-col__title--orange {
+    color: #FF8A00;
+}
+
+.marketing-col__right {
+    text-align: right;
 }
 
 @media screen and (min-width: 900px) {
