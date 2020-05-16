@@ -254,7 +254,7 @@ body {
     font-size: 16px;
     line-height: 28px;
     color: #535353;
-    margin-top: 48px;
+    margin: 48px 17px 0 0;
 }
 
 .comment__time {
@@ -286,6 +286,13 @@ body {
     border-radius: 50%;
 }
 
+.comment__table--second {
+    border-radius: 0;
+}
+
+.comment__table--last {
+    border-radius: 0 0 10px 10px;
+}
 
 
 @media screen and (min-width: 900px) {
