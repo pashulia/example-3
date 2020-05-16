@@ -350,6 +350,113 @@ body {
     margin-top: 45px;
 }
 
+.footer {
+    background: #212121;
+}
+
+.footer-block {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-footer {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.menu-footer {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.col {
+    margin: 46px 190px 56px 131px;
+    width: 265px;
+}
+
+.social-networks {
+    padding: 3px 13px;
+    margin-right: 10px;
+    line-height: 175%;
+}
+
+.facebook {
+    background: url(../disign/facebook.svg) no-repeat center;
+}
+
+.twiter {
+    background: url(../disign/twiter.svg) no-repeat center;
+}
+
+.youtube {
+    background: url(../disign/youtube.svg) no-repeat center;
+}
+
+.ball {
+    background: url(../disign/ball.svg) no-repeat center;
+}
+
+.quicklinks {
+    margin: 43px 84px 29px 0;
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-footer {
+    margin-bottom: 9%;
+}
+
+.contacts {
+    margin: 43px 84px 29px 0;
+    width: 238px;
+}
+
+.contacts-footer {
+    line-height: 190%;
+}
+
+.faq {
+    margin: 163px 100px 62px 0;
+    width: 203px;
+    display: flex;
+    flex-direction: column;
+    line-height: 175%;
+}
+
+.privacy-line {
+    background: #000;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 13px 30px;
+}
+
+.site {
+    margin-left: 50px;
+}
+
+.yellow-text {
+    color: #ff8a00;
+    position: relative;
+}
+
+.yellow-text::after {
+    content: "______";
+    width: 20px;
+    height: 1px;
+    color: #ff8a00;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+
+
 @media screen and (min-width: 900px) {
     .container {
         max-width: 889px;
