@@ -365,12 +365,6 @@ body {
     line-height: 17px;
 }
 
-.menu-footer {
-    font-size: 15px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .col {
     margin: 46px 190px 56px 131px;
     width: 265px;
@@ -382,44 +376,51 @@ body {
     line-height: 175%;
 }
 
-.facebook {
+.social-networks__facebook {
     background: url(../disign/facebook.svg) no-repeat center;
 }
 
-.twiter {
+.social-networks__twiter {
     background: url(../disign/twiter.svg) no-repeat center;
 }
 
-.youtube {
+.social-networks__youtube {
     background: url(../disign/youtube.svg) no-repeat center;
 }
 
-.ball {
+.social-networks__ball {
     background: url(../disign/ball.svg) no-repeat center;
 }
 
-.quicklinks {
+.menu-footer {
     margin: 43px 84px 29px 0;
     width: 152px;
     display: flex;
     flex-direction: column;
 }
 
-.link-footer {
-    margin-bottom: 9%;
+.menu-footer__title {
+    margin-bottom: 40px;
 }
 
-.contacts {
-    margin: 43px 84px 29px 0;
-    width: 238px;
+.menu-footer__link {
+    margin-bottom: 9%;
+    font-size: 15px;
+    line-height: 175.78%;
+    color: #FFFFFF;
+    text-decoration: none;
+    ;
 }
 
 .contacts-footer {
-    line-height: 190%;
+    margin: 43px 84px 29px 0;
+    width: 238px;
+    display: flex;
+    flex-direction: column;
 }
 
 .faq {
-    margin: 163px 100px 62px 0;
+    margin: 220px 100px 62px 0;
     width: 203px;
     display: flex;
     flex-direction: column;
